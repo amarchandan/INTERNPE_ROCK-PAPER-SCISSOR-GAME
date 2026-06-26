@@ -66,6 +66,8 @@ int main() {
     cout << "Enter r for ROCK, p for PAPER, s for SCISSOR\n";
 
     do {
+        cout << "Rock Paper Scissors Game\n";
+        cout << "Enter r for ROCK, p for PAPER, s for SCISSOR\n";
         cout << "\nEnter your move: ";
         game.getPlayerMove();
         game.playRound();
